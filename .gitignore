@@ -1,0 +1,23 @@
+﻿# Virtual environment & Python cache
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw data files (keep deshikart_raw_csvs/generator/ tracked, ignore huge CSVs)
+*.csv
+*.parquet
+deshikart_raw_csvs/*.csv
+
+# Secrets & Databricks tokens
+.env
+.env.*
+*token*
+*secret*
+*.pem
+*.key
+
+# Jupyter & OS artifacts
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
